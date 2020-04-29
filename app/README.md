@@ -9,3 +9,11 @@ this is web application that allows  users to  get latest news. It is also easy 
 From the repository, click + in the global sidebar and select Clone this repository under Get to work.
 Copy the clone command.
 From terminal you use '$ git clone https://github.com/Hano-Guru/python-flask-week-2
+# BDD
+## 	Behavior
+.User clicks on News button
+.User clicks on the other items on the nav
+
+# Result
+.User is able to view and read the news
+.specific page displayed
