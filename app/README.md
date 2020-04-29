@@ -17,3 +17,14 @@ From terminal you use '$ git clone https://github.com/Hano-Guru/python-flask-wee
 # Result
 .User is able to view and read the news
 .specific page displayed
+# Technologies Used
+.Python
+.CSS
+.HTML
+.Git
+
+# Contact Information
+Email(bashiromar94@gmail.com)
+# License (MIT License)
+This project is licensed under the MIT Open Source license, (c) Hanad ahmed
+
