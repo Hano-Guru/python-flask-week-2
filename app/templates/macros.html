@@ -1,0 +1,31 @@
+{% macro displayNewsList(news_list) %}
+
+{% for news in news_list %}
+<div class="container-fluid">
+  <p><a href="{{news.url}}" target="_blank">
+      <h1>{{ news.name}}</h1>
+    </a></p>
+  <p>{{news.description}}</p>
+
+</div>
+{% endfor %}
+
+{% endmacro %}
+
+{% macro displayArticleList(article_list) %}
+
+
+
+{% for x in article_list %}
+
+ <h2>{{x.author}}</h2>
+ <h2>{{x.title}}</h2>
+ <h2>{{x.description}}</h2>
+ <h2>{{x.url}}</h2>
+ <h2>{{x.urlToImage}}</h2>
+ <h2>{{x.publishedAt}}</h2>
+ <h2>{{x.content}}</h2>
+
+{% endfor %}
+
+{% endmacro %}
